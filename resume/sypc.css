@@ -1,0 +1,149 @@
+html{
+    background-color: #FDF2E9;
+}
+body{
+    font-family: 'Merriweather', serif;
+}
+.main{
+    border: none red;
+    margin: 0px 150px;
+}
+.top{
+    text-align: right;
+    padding-bottom: 11px;
+    height: 60px;
+    transition: 1s;
+}
+.top a :hover{
+    transform: scale(1);
+    background: #182f4b;
+    color: #FFF;
+}
+
+.top a li{
+    display: inline-flex;
+    padding: 30px;
+    padding-top: 20px;
+    text-decoration: none;
+    
+    
+}
+a{
+    text-decoration: underline;
+    text-decoration: none;
+    color: #000000;
+}
+
+.imgtop{
+    background-image: url(/image-hero-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    align-content: center;
+    justify-content: center; 
+    position: relative;
+    
+}
+.wallpapertext{
+    border: solid #FDF2E9;
+    border-top-right-radius: 5px ;
+    width: 500px;
+    position: absolute;
+    top: 28.2vh;
+    padding-left: 0px;
+    background: #FDF2E9;
+    font-size: 1.5rem;
+
+}
+.input1 {
+    border: none red;
+    padding: 10px 40px;
+    background-color: #182f4b;
+    color: #FFF;
+    font-size: 0.8rem;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.5s;
+    
+}
+.input1:hover{
+    transform: scale(1);
+    background-color: #295ea0;
+}
+
+.body1{
+    display: inline-flex;
+    border: none red 1px;
+    margin-top: 25vh;
+}
+.imgbody{
+    width: 600px;
+    height: 700px;
+    border-radius: 5px;
+}
+.textbody{
+    padding-top: 0px;
+    margin-left: 18vh;
+    border-top: 2px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+    width: 600px;
+    transition: 1s;
+    
+}
+.textbody a:hover{
+    transform: scale(1);
+    background: rgb(26, 26, 26);
+    color: #FFF;
+}
+.textbody b{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 3rem;
+   
+}
+.textbody p{
+    margin-bottom: 30px;
+}
+.textbody a {
+    border: solid 1px;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    font-family: 'Raleway', sans-serif;
+}
+.textaboutme{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    line-height: 40px;
+}
+.button{
+    width: 87%;
+    margin-top: 15vh;
+    display: inline-flex;
+    border: none red;
+    padding-top: 50px;
+    margin-bottom: 15vh;
+    border-top: solid 1px #c7c7c7;
+}
+.button a p{
+    border: solid 1px;
+    width: 8.5vh;
+    padding: 10px 30px;
+    font-size: 0.8rem;
+    width: 10vh;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 60vh;
+    transition: 0.5s;
+}
+.button b{
+    font-family: 'Merriweather', serif;
+    font-size: 2.2rem;
+    margin: 0;
+    border: none red; 
+    width: 60vh;
+}
+.button a p:hover{
+    transform: scale(1);
+    background: rgb(26, 26, 26);
+    color: #FFF;
+}

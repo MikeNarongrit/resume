@@ -1,0 +1,174 @@
+@media only screen and (max-width: 768px) and (min-width:481px) {
+    body{
+        font-family: 'Merriweather', serif;
+        background-color: #FDF2E9;
+        
+    }
+    .main{
+        border: none red;
+        margin: 0px 0px;
+        align-content: center;
+        justify-content: center; 
+    }
+    .top{
+        text-align: right;
+        padding-bottom: 11px;
+        height: 60px;
+        transition: 1s;
+    }
+    .top a :hover{
+        transform: scale(1);
+        background: #182f4b;
+        color: #FFF;
+    }
+    
+    .top a li{
+        display: inline-flex;
+        padding: 30px;
+        padding-top: 20px;
+        text-decoration: none;
+        
+        
+    }
+    a{
+        text-decoration: underline;
+        text-decoration: none;
+        color: #000000;
+    }
+    .imgtop{
+        background-image: url(/image-hero-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        max-width: 768px;
+        width: 100%;
+        display: grid;
+        align-content: center;
+        justify-content: center; 
+        position: relative;
+        
+        
+    }
+    .wallpapertext{
+        border: solid #FDF2E9;
+        border-top-right-radius: 5px ;
+        max-width: 755px;
+        width: 100%;
+        position: absolute;
+        top: 28.5vh;
+        
+        background: #FDF2E9;
+        font-size: 1.5rem;
+        margin-top: 20vh;
+        
+    
+    }
+    .input1 {
+        border: none red;
+        padding: 10px 40px;
+        background-color: #182f4b;
+        color: #FFF;
+        font-size: 0.8rem;
+        font-family: 'Raleway', sans-serif;
+        transition: 0.5s;
+        
+    }
+    .input1:hover{
+        transform: scale(1);
+        background-color: #295ea0;
+    }
+    
+    .body1{
+        display: block;
+        border: none red 1px;
+        margin-top: 25vh;
+    }
+    .imgbody{
+        margin: auto;
+        margin-top: 120px;
+        width: 400px;
+        height: 500px;
+        border-radius: 5px;
+        position:relative;
+        top: 20vh;
+        left: 50%; 
+        transform:translate(-50%,-50%);
+        
+    }
+    .textbody{
+        padding: 50px 1.2px;
+        margin: auto;
+        border-top: 2px solid #c7c7c7;
+        border-bottom: 2px solid #c7c7c7;
+        width: 470px;
+        height: 500px;
+        transition: 1s;
+        text-align: center;
+        
+    }
+    .textbody a:hover{
+        transform: scale(1);
+        background: rgb(26, 26, 26);
+        color: #FFF;
+    }
+    .textbody b{
+        font-family: 'Noto Serif Display', serif;
+        font-size: 3rem;
+        
+       
+    }
+    .textbody p{
+        margin-bottom: 30px;
+    }
+    .textbody a {
+        border: solid 1px;
+        padding: 10px 20px;
+        font-size: 0.8rem;
+        font-family: 'Raleway', sans-serif;
+    }
+    .textaboutme{
+        font-family: 'Kanit', sans-serif;
+        font-size: 1rem;
+        line-height: 40px;
+        max-width: 450px;
+        width: 100%;
+        text-align: left;
+        margin: auto;
+       
+    }
+
+    .button {
+        width: 50vh;
+        margin-top: 15vh;
+        margin: auto;
+        display: block;
+        border: none red;
+        padding-top: 50px;
+        margin-bottom: 15vh;
+        text-align: center;
+    }
+    .button a p{
+        border: solid 1px;
+        padding: 10px 10px;
+        font-size: 0.8rem;
+        width: 20vh;
+        font-family: 'Raleway', sans-serif;
+        margin: auto;
+        margin-top: 3vh;
+        transition: 0.5s;
+    }
+    .button b{
+        font-family: 'Merriweather', serif;
+        font-size: 2.2rem;
+        margin: 0;
+        line-height: 7vh;
+    }
+    .button a p:hover{
+        transform: scale(1);
+        background: rgb(26, 26, 26);
+        color: #FFF;
+    }
+    
+
+
+}
